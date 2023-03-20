@@ -1,0 +1,330 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 1400px;
+    width: 100%;
+    background-color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #fff;
+}
+
+/* header */
+
+.nav-panel {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-img-logo {
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    top: 36px;
+    left: 124px;
+    width: 130px;
+    height: 39px;
+    background-color: black;
+    border-radius: 100px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 4px;
+    font-weight: 700;
+    font-size: 24.41px;
+    line-height: 30.14px;
+    color: #1BFF07;
+    letter-spacing: -1px;
+}
+
+
+.nav-list {
+    position: absolute;
+    display: flex;
+    top: 33px;
+    right: 124px;
+}
+
+.nav-list>li {
+    margin-right: 50px;
+}
+
+.nav-list>li:nth-last-child(1) {
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 23.4px;
+}
+
+.nav-link:hover {
+    color: #1BFF07;
+    transition: 0.5s;
+}
+
+/* main */
+
+/* top-body-screen section */
+
+.top-body-screen {
+    height: 765px;
+    background-image: url(..//images/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.container-top-body-img {
+    position: relative; 
+}
+
+.top-body-img-text {
+    position: absolute;
+    font-size: 20px;
+    line-height: 26px;
+    top: 334px;
+    left: 125px;
+}
+
+.top-body-img-title {
+    position: absolute;
+    font-size: 80px;
+    line-height: 70px;
+    color: #1BFF07;
+    top: 466px;
+    left: 119px;
+}
+
+/* project section */
+
+.project {
+    margin-top: 150px;
+}
+
+.container-project {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.project-title {
+    font-size: 55px;
+    line-height: 71.5px;
+    margin-bottom: 40px;
+}
+
+.project-metrika {
+    position: relative;
+    width: 1150px;
+    height: 550px;
+    background-image: url(..//images/metrika.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 30px;
+}
+
+.project-fesiyen {
+    position: relative;
+    width: 1150px;
+    height: 550px;
+    background-image: url(../images/fesiyen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 30px;
+}
+
+.project-denis {
+    position: relative;
+    width: 1150px;
+    height: 550px;
+    background-image: url(..//images/denis.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 30px;
+    margin-bottom: 80px;
+}
+
+.project-img-title {
+    position: absolute;
+    font-size: 35px;
+    line-height: 45.5px;
+    top: 410px;
+    left: 50px;
+}
+
+.project-text {
+    position: absolute;
+    font-size: 30px;
+    line-height: 39px;
+    top: 461px;
+    left: 50px;
+}
+
+.project-btn {
+    width: 582px;
+    height: 153px;
+    border-radius: 10px;
+    background-color: #1BFF07;
+    font-size: 30px;
+    line-height: 39px;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+
+.project-btn:hover {
+    background-color: black;
+    color: #1BFF07;
+    border-color: #1BFF07;
+    transition: 0.5s;
+}
+
+/* my-skills section */
+
+.container-my-skills {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.my-skills-title {
+    font-size: 55px;
+    line-height: 71.5px;
+    margin-bottom: 48px;
+}
+
+.my-skills-list-content>h4 {
+    font-size: 35px;
+    line-height: 45.5px;
+    color: #1BFF07;
+    margin: 12px 0 15px 0;
+}
+
+.my-skills-list-content>p {
+    font-size: 22px;
+    line-height: 28.6px;
+    margin-bottom: 60px;
+}
+
+.my-skills-list-content:nth-last-child(1) {
+    margin-bottom: 150px;
+}
+
+/* services section */
+
+.container-services {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.services-title {
+    font-size: 35px;
+    line-height: 45.5px;
+    margin-bottom: 74px;
+}
+
+.services-list-content-img {
+    border-radius: 30px;
+}
+
+.services-list-content-text {
+    height: 283px;
+    background-color: #191C19;
+    border-radius: 30px;
+}
+
+.services-list-content-text>h5 {
+    font-size: 55px;
+    line-height: 71.5px;
+    color: #1BFF07;
+    padding: 40px 0 15px 40px;
+}
+
+.services-list-content-text>p {
+    font-size: 22px;
+    line-height: 28.6px;
+    padding: 0 0 40px 40px;
+}
+
+.services-list-content:nth-last-child(3) {
+    margin-bottom: 74px;
+}
+
+.services-list-content:nth-last-child(2) {
+    margin-bottom: 137px;
+}
+
+.services-list-content:nth-last-child(1) {
+    margin-bottom: 190px;
+}
+
+/* contacts section */
+
+.container-contacts {
+    width: 100%;
+    height: 717px;
+    margin: 0 auto;
+    background-color: #191C19;
+    border-radius: 30px;
+    margin-bottom: 150px;
+}
+
+.contacts-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-info>h6 {
+    font-size: 35px;
+    line-height: 60px;
+    margin: 320px 0 28px 125px;
+}
+
+.contacts-info>li {
+    margin: 0 0 20px 125px;
+}
+
+.contacts-info>li>a {
+    font-size: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.contacts-info>li>a:hover {
+    color: #1BFF07;
+    transition: 0.5s;
+}
+
+.contacts-img {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/* footer */
+
+.container-footer {
+    background-color: #fff;
+    color: black;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.footer-info>h6 {
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 76px;
+    margin: 0px 0 66px 125px;
+}
+
+.footer-info>p {
+    font-size: 20px;
+    line-height: 27.32px;
+    opacity: 0.5;
+    margin: 0 0 0px 125px;
+    padding-bottom: 20px;
+}
