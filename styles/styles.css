@@ -3,8 +3,7 @@ html {
 }
 
 body {
-    width: 1400px;
-    width: 100%;
+    min-width: 1400px;
     background-color: black;
     font-family: 'IBM Plex Mono', monospace;
     color: #fff;
