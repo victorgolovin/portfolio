@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    min-width: 1400px;
+    width: 1400px;
+    width: 100%;
     background-color: black;
     font-family: 'IBM Plex Mono', monospace;
     color: #fff;
@@ -31,7 +32,7 @@ body {
     text-align: center;
     padding-top: 4px;
     font-weight: 700;
-    font-size: 24.41px;
+    font-size: 29.41px;
     line-height: 30.14px;
     color: #1BFF07;
     letter-spacing: -1px;
@@ -200,7 +201,7 @@ body {
     font-size: 35px;
     line-height: 45.5px;
     color: #1BFF07;
-    margin: 12px 0 15px 0;
+    margin: 16px 0 15px 0;
 }
 
 .my-skills-list-content>p {
@@ -258,7 +259,7 @@ body {
 }
 
 .services-list-content:nth-last-child(1) {
-    margin-bottom: 190px;
+    margin-bottom: 145px;
 }
 
 /* contacts section */
