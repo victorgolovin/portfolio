@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    width: 1400px;
+    min-width: 1400px;
     width: 100%;
     background-color: black;
     font-family: 'IBM Plex Mono', monospace;
@@ -70,16 +70,10 @@ body {
 
 /* top-body-screen section */
 
-.top-body-screen {
-    height: 765px;
-    background-image: url(..//images/Rectangle\ 1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-}
 
-.container-top-body-img {
-    position: relative; 
+.top-body-img {
+    width: 100%;
+    height: auto;
 }
 
 .top-body-img-text {
@@ -105,7 +99,9 @@ body {
     margin-top: 150px;
 }
 
-.container-project {
+.container-project,
+.container-services,
+.container-my-skills {
     width: 1150px;
     margin: 0 auto;
 }
@@ -114,6 +110,10 @@ body {
     font-size: 55px;
     line-height: 71.5px;
     margin-bottom: 40px;
+}
+
+.project-list>li>a {
+    color: #fff;
 }
 
 .project-metrika {
@@ -171,6 +171,7 @@ body {
     height: 153px;
     border-radius: 10px;
     background-color: #1BFF07;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 30px;
     line-height: 39px;
     cursor: pointer;
@@ -186,40 +187,82 @@ body {
 
 /* my-skills section */
 
-.container-my-skills {
-    width: 1150px;
-    margin: 0 auto;
-}
-
 .my-skills-title {
     font-size: 55px;
     line-height: 71.5px;
-    margin-bottom: 48px;
+    margin-bottom: 100px;
 }
 
-.my-skills-list-content>h4 {
+.my-skills-list-content-html-css>h4,
+.my-skills-list-content-js>h4,
+.my-skills-list-content-framework>h4,
+.my-skills-list-content-atom>h4 {
     font-size: 35px;
     line-height: 45.5px;
     color: #1BFF07;
     margin: 16px 0 15px 0;
 }
 
-.my-skills-list-content>p {
+.my-skills-list-content-html-css>p,
+.my-skills-list-content-js>p,
+.my-skills-list-content-framework>p,
+.my-skills-list-content-atom>p {
     font-size: 22px;
     line-height: 28.6px;
     margin-bottom: 60px;
 }
 
-.my-skills-list-content:nth-last-child(1) {
+.my-skills-list-content-html-css,
+.my-skills-list-content-js,
+.my-skills-list-content-framework {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.my-skills-list-content-html-css::before {
+    content: '';
+    position: absolute;
+    top: -65px;
+    width: 45px;
+    height: 44px;
+    background-image: url(..//files/html-icon.png);
+}
+
+.my-skills-list-content-js::before {
+    content: '';
+    position: absolute;
+    top: -65px;
+    width: 45px;
+    height: 44px;
+    background-image: url(..//files/js-icon.png);
+}
+
+.my-skills-list-content-framework::before {
+    content: '';
+    position: absolute;
+    top: -65px;
+    width: 45px;
+    height: 44px;
+    background-image: url(..//files/mobile-icon.png);
+}
+
+.my-skills-list-content-atom::before {
+    content: '';
+    position: absolute;
+    top: -65px;
+    width: 45px;
+    height: 44px;
+    background-image: url(..//files/atom-icon.png);
+}
+
+
+
+.my-skills-list-content-atom {
+    position: relative;
     margin-bottom: 150px;
 }
 
 /* services section */
-
-.container-services {
-    width: 1150px;
-    margin: 0 auto;
-}
 
 .services-title {
     font-size: 35px;

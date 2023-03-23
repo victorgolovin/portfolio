@@ -8,15 +8,14 @@
     <link rel="apple-touch-icon" sizes="180x180" href="files/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="files/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="files/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">              
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inter:wght@400;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Portfolio</title>
 
+    <title>Portfolio</title>
 </head>
 
 <body>
@@ -26,10 +25,10 @@
                 <p>GOLOVIN</p>
             </a>
             <ul class="nav-list">
-                <li> <a class="nav-link" href="#Портфолио">Портфолио</a> </li>
-                <li> <a class="nav-link" href="#Компетенции">Компетенции</a> </li>
-                <li> <a class="nav-link" href="#Услуги">Услуги</a> </li>
-                <li> <a class="nav-link" href="#Контакты">Контакты</a> </li>
+                <li> <a class="nav-link" href="#portfolio">Портфолио</a> </li>
+                <li> <a class="nav-link" href="#competencies">Компетенции</a> </li>
+                <li> <a class="nav-link" href="#services">Услуги</a> </li>
+                <li> <a class="nav-link" href="#contacts">Контакты</a> </li>
             </ul>
         </div>
     </header>
@@ -37,6 +36,7 @@
     <main>
         <section class="top-body-screen">
             <div class="container-top-body-img">
+                <img class="top-body-img" src="images/top-body-img.jpg" alt="portfolio-img">
                 <p class="top-body-img-text">
                     Разрабатываю имиджевые сайты для <br>
                     малого и среднего бизнеса, которые <br>
@@ -44,7 +44,7 @@
                     выделиться на фоне конкурентов</p>
                 <h1 class="top-body-img-title">
                     Привет, я Виктор — <br>
-                    фронтенд разарботчик <br>
+                    фронтенд разработчик <br>
                     и дизайнер сайтов</h1>
             </div>
 
@@ -52,27 +52,33 @@
 
         <section class="project">
             <div class="container-project">
+                <h2 class="project-title" id="portfolio">
+                    Самые свежие проекты
+                </h2>
                 <ul class="project-list">
                     <li>
-                        <h2 class="project-title" id="Портфолио">
-                            Самые свежие проекты
-                        </h2>
-                        <div class="project-metrika">
-                            <h3 class="project-img-title">Metrika</h3>
-                            <p class="project-text">дизайн,верстка, настройка</p>
-                        </div>
+                        <a href="https://victorgolovin.github.io/MODULE-1.METRIKA/">
+                            <div class="project-metrika">
+                                <h3 class="project-img-title">Metrika</h3>
+                                <p class="project-text">дизайн,верстка, настройка</p>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="project-fesiyen">
-                            <h3 class="project-img-title">Fesiyen</h3>
-                            <p class="project-text">разработка интерфейса</p>
-                        </div>
+                        <a href="#">
+                            <div class="project-fesiyen">
+                                <h3 class="project-img-title">Fesiyen</h3>
+                                <p class="project-text">разработка интерфейса</p>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="project-denis">
-                            <h3 class="project-img-title">Denis Novik</h3>
-                            <p class="project-text">разработка интерфейса</p>
-                        </div>
+                        <a href="https://victorgolovin.github.io/Landing-Page-Denis-Novik/">
+                            <div class="project-denis">
+                                <h3 class="project-img-title">Denis Novik</h3>
+                                <p class="project-text">разработка интерфейса</p>
+                            </div>
+                        </a>
                     </li>
                 </ul>
                 <button class="project-btn">
@@ -83,40 +89,35 @@
 
         <section class="my-skills">
             <div class="container-my-skills">
-                <h2 class="my-skills-title" id="Компетенции" >Мои компетенции</h2>
+                <h2 class="my-skills-title" id="competencies">Мои компетенции</h2>
                 <ul class="my-skills-list">
-                    <li class="my-skills-list-content">
-                        <img src="files/html-icon.png" alt="html-icon">
+                    <li class="my-skills-list-content-html-css">
                         <h4>HTML и CSS</h4>
                         <p>Это основа фронтенд разработки. Умение создавать и правильно <br>
                             структурировать HTML-документы, а также применять стили к этим <br>
                             документам на CSS, является обязательным навыком для каждого <br>
                             фронтенд разработчика.</p>
                     </li>
-
-                    <li class="my-skills-list-content">
-                        <img src="files/js-icon.png" alt="js-icon">
+                    <li class="my-skills-list-content-js">
                         <h4>JavaScript</h4>
-                        <p>это язык программирования, который используется для создания <br>
+                        <p>Это язык программирования, который используется для создания <br>
                             динамического и интерактивного пользовательского интерфейса. <br>
                             Хороший фронтенд разработчик должен быть знаком с основами <br>
                             JavaScript, включая работу с DOM-деревом, асинхронными <br>
                             запросами и манипуляцией данными на стороне клиента.</p>
                     </li>
-                    <li class="my-skills-list-content">
-                        <img src="files/mobile-icon.png" alt="mobile-icon">
+                    <li class="my-skills-list-content-framework">
                         <h4>Работа с библиотеками и фреймворками</h4>
-                        <p>фронтенд разработчики должны быть знакомы с различными <br>
+                        <p>Фронтенд разработчики должны быть знакомы с различными <br>
                             библиотеками и фреймворками, такими как React, Angular, Vue и <br>
                             другими. Умение использовать готовые решения, адаптировать их <br>
                             под нужды проекта и расширять их функциональность, является <br>
                             очень важным навыком.</p>
                     </li>
-                    <li class="my-skills-list-content">
-                        <img src="files/atom-icon.png" alt="atom-icon">
+                    <li class="my-skills-list-content-atom">
                         <h4>Разработка для мобильных <br>
                             устройств и адаптивная верстка</h4>
-                        <p>фронтенд разработчики должны быть знакомы с различными <br>
+                        <p>Фронтенд разработчики должны быть знакомы с различными <br>
                             библиотеками и фреймворками, такими как React, Angular, Vue и <br>
                             другими. Умение использовать готовые решения, адаптировать их <br>
                             под нужды проекта и расширять их функциональность, является <br>
@@ -128,7 +129,7 @@
 
         <section class="services">
             <div class="container-services">
-                <h2 class="services-title" id="Услуги" >Помогаю реализовать <br>
+                <h2 class="services-title" id="services">Помогаю реализовать <br>
                     широкий спектр задач</h2>
                 <ul class="services-list">
                     <li class="services-list-content">
@@ -161,7 +162,7 @@
                                 создать динамический и удобный пользовательский интерфейс <br>
                                 для вашего сайта или приложения.
                             </p>
-                        </div>    
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -170,7 +171,7 @@
         <section class="contacts">
             <div class="container-contacts">
                 <div class="contacts-wrapper">
-                    <ul class="contacts-info" id="Контакты">
+                    <ul class="contacts-info" id="contacts">
                         <h6>Для связи:</h6>
                         <li>
                             <a href="#">Instagram</a>
