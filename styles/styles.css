@@ -70,10 +70,10 @@ body {
 
 /* top-body-screen section */
 
-
 .top-body-img {
     width: 100%;
     height: auto;
+    background: linear-gradient(#191C19);
 }
 
 .top-body-img-text {
@@ -216,13 +216,13 @@ body {
 .my-skills-list-content-js,
 .my-skills-list-content-framework {
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .my-skills-list-content-html-css::before {
     content: '';
     position: absolute;
-    top: -65px;
+    top: -56px;
     width: 45px;
     height: 44px;
     background-image: url(..//files/html-icon.png);
@@ -231,7 +231,7 @@ body {
 .my-skills-list-content-js::before {
     content: '';
     position: absolute;
-    top: -65px;
+    top: -56px;
     width: 45px;
     height: 44px;
     background-image: url(..//files/js-icon.png);
@@ -240,7 +240,7 @@ body {
 .my-skills-list-content-framework::before {
     content: '';
     position: absolute;
-    top: -65px;
+    top: -56px;
     width: 45px;
     height: 44px;
     background-image: url(..//files/mobile-icon.png);
@@ -249,7 +249,7 @@ body {
 .my-skills-list-content-atom::before {
     content: '';
     position: absolute;
-    top: -65px;
+    top: -56px;
     width: 45px;
     height: 44px;
     background-image: url(..//files/atom-icon.png);
@@ -259,7 +259,7 @@ body {
 
 .my-skills-list-content-atom {
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: 165px;
 }
 
 /* services section */
