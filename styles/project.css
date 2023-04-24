@@ -1,0 +1,91 @@
+/* project section */
+
+.project {
+    margin-top: 150px;
+}
+
+.container-project,
+.container-services,
+.container-my-skills {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.project-title {
+    font-size: 55px;
+    line-height: 71.5px;
+    margin-bottom: 40px;
+}
+
+.project-list>li>a {
+    color: #fff;
+}
+
+.project-metrika {
+    position: relative;
+    width: 1150px;
+    height: 550px;
+    background-image: url(..//images/metrika.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 30px;
+}
+
+.project-fesiyen {
+    position: relative;
+    width: 1150px;
+    height: 550px;
+    background-image: url(../images/fesiyen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 30px;
+}
+
+.project-denis {
+    position: relative;
+    width: 1150px;
+    height: 550px;
+    background-image: url(..//images/denis.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 30px;
+    margin-bottom: 80px;
+}
+
+.project-img-title {
+    position: absolute;
+    font-size: 35px;
+    line-height: 45.5px;
+    top: 410px;
+    left: 50px;
+}
+
+.project-text {
+    position: absolute;
+    font-size: 30px;
+    line-height: 39px;
+    top: 461px;
+    left: 50px;
+}
+
+.project-btn {
+    width: 582px;
+    height: 153px;
+    border-radius: 10px;
+    background-color: #1BFF07;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 30px;
+    line-height: 39px;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+
+.project-btn:hover {
+    background-color: black;
+    color: #1BFF07;
+    border-color: #1BFF07;
+    transition: 0.5s;
+}

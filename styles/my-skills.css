@@ -1,0 +1,74 @@
+/* my-skills section */
+
+.my-skills-title {
+    font-size: 55px;
+    line-height: 71.5px;
+    margin-bottom: 100px;
+}
+
+.my-skills-list-content-html-css>h4,
+.my-skills-list-content-js>h4,
+.my-skills-list-content-framework>h4,
+.my-skills-list-content-atom>h4 {
+    font-size: 35px;
+    line-height: 45.5px;
+    color: #1BFF07;
+    margin: 16px 0 15px 0;
+}
+
+.my-skills-list-content-html-css>p,
+.my-skills-list-content-js>p,
+.my-skills-list-content-framework>p,
+.my-skills-list-content-atom>p {
+    font-size: 22px;
+    line-height: 28.6px;
+    margin-bottom: 60px;
+}
+
+.my-skills-list-content-html-css,
+.my-skills-list-content-js,
+.my-skills-list-content-framework {
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.my-skills-list-content-html-css::before {
+    content: '';
+    position: absolute;
+    top: -56px;
+    width: 45px;
+    height: 44px;
+    background-image: url(..//files/html-icon.png);
+}
+
+.my-skills-list-content-js::before {
+    content: '';
+    position: absolute;
+    top: -56px;
+    width: 45px;
+    height: 44px;
+    background-image: url(..//files/js-icon.png);
+}
+
+.my-skills-list-content-framework::before {
+    content: '';
+    position: absolute;
+    top: -56px;
+    width: 45px;
+    height: 44px;
+    background-image: url(..//files/mobile-icon.png);
+}
+
+.my-skills-list-content-atom::before {
+    content: '';
+    position: absolute;
+    top: -56px;
+    width: 45px;
+    height: 44px;
+    background-image: url(..//files/atom-icon.png);
+}
+
+.my-skills-list-content-atom {
+    position: relative;
+    margin-bottom: 165px;
+}
