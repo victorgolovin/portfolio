@@ -32,6 +32,17 @@
     border-radius: 30px;
 }
 
+.project-metrika::after {
+    content: '';
+    position: absolute;
+    width: 206px;
+    height: 47px;
+    background-image: url(..//files/Interior-Design.png);
+    background-repeat: no-repeat;
+    top: 50px;
+    left: 45px;
+}
+
 .project-fesiyen {
     position: relative;
     width: 1150px;
@@ -41,6 +52,17 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     border-radius: 30px;
+}
+
+.project-fesiyen::after {
+    content: '';
+    position: absolute;
+    width: 220px;
+    height: 47px;
+    background-image: url(..//files/travel-order.png);
+    background-repeat: no-repeat;
+    top: 50px;
+    left: 45px;
 }
 
 .project-denis {
@@ -53,6 +75,17 @@
     background-position: 50% 50%;
     border-radius: 30px;
     margin-bottom: 80px;
+}
+
+.project-denis::after {
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 47px;
+    background-image: url(..//files/product-presentation.png);
+    background-repeat: no-repeat;
+    top: 50px;
+    left: 45px;
 }
 
 .project-img-title {
