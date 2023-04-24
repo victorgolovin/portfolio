@@ -6,6 +6,23 @@
     margin-bottom: 100px;
 }
 
+.my-skills-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-skills-list-content-html-css,
+.my-skills-list-content-js,
+.my-skills-list-content-framework,
+.my-skills-list-content-atom {
+    width: calc(50% - 24px);
+}
+
+.my-skills-list-content-html-css,
+.my-skills-list-content-framework {
+    margin-right: 47px;
+}
+
 .my-skills-list-content-html-css>h4,
 .my-skills-list-content-js>h4,
 .my-skills-list-content-framework>h4,
@@ -13,7 +30,7 @@
     font-size: 35px;
     line-height: 45.5px;
     color: #1BFF07;
-    margin: 16px 0 15px 0;
+    margin: 15px 0 15px 0;
 }
 
 .my-skills-list-content-html-css>p,
@@ -22,7 +39,6 @@
 .my-skills-list-content-atom>p {
     font-size: 22px;
     line-height: 28.6px;
-    margin-bottom: 60px;
 }
 
 .my-skills-list-content-html-css,
