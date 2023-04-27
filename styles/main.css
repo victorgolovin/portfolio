@@ -12,8 +12,6 @@ html {
 }
 
 body {
-    min-width: 1400px;
-    width: 100%;
     background-color: black;
     font-family: 'IBM Plex Mono', monospace;
     color: #fff;
@@ -22,4 +20,12 @@ body {
 .container {
     width: 1150px;
     margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }

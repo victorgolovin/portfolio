@@ -4,104 +4,67 @@
     margin-top: 150px;
 }
 
-.container-project,
-.container-services,
-.container-my-skills {
-    width: 1150px;
-    margin: 0 auto;
-}
-
 .project-title {
     font-size: 55px;
     line-height: 71.5px;
     margin-bottom: 40px;
 }
 
-.project-list>li>a {
-    color: #fff;
-}
-
-.project-metrika {
-    position: relative;
-    width: 1150px;
-    height: 550px;
-    background-image: url(..//images/metrika.PNG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    border-radius: 30px;
-}
-
-.project-metrika::after {
-    content: '';
-    position: absolute;
-    width: 206px;
-    height: 47px;
-    background-image: url(..//files/Interior-Design.png);
-    background-repeat: no-repeat;
-    top: 50px;
-    left: 45px;
-}
-
-.project-fesiyen {
-    position: relative;
-    width: 1150px;
-    height: 550px;
-    background-image: url(../images/fesiyen.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    border-radius: 30px;
-}
-
-.project-fesiyen::after {
-    content: '';
-    position: absolute;
-    width: 220px;
-    height: 47px;
-    background-image: url(..//files/travel-order.png);
-    background-repeat: no-repeat;
-    top: 50px;
-    left: 45px;
-}
-
-.project-denis {
-    position: relative;
-    width: 1150px;
-    height: 550px;
-    background-image: url(..//images/denis.PNG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    border-radius: 30px;
+.project-list {
     margin-bottom: 80px;
 }
 
-.project-denis::after {
+.project-metrika-wrapper,
+.project-fesiyen-wrapper,
+.project-denis-wrapper {
+    position: relative;
+}
+
+.project-metrika-img,
+.project-fesiyen-img,
+.project-denis-img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.project-title-img {
+    position: absolute;
+    font-size: 35px;
+    line-height: 45.5px;
+    color: #fff;
+    bottom: 94px;
+    left: 50px;
+}
+
+.project-text-img {
+    position: absolute;
+    font-size: 30px;
+    line-height: 39px;
+    color: #fff;
+    bottom: 50px;
+    left: 50px;
+}
+
+.project-metrika-wrapper::after,
+.project-fesiyen-wrapper::after,
+.project-denis-wrapper::after {
+    background-image: url(..//files/Interior-Design.png);
+    background-image: url(..//files/travel-order.png);
+    background-image: url(..//files/product-presentation.png);
+}
+
+.project-metrika-wrapper::after,
+.project-fesiyen-wrapper::after,
+.project-denis-wrapper::after {
     content: '';
     position: absolute;
     width: 250px;
     height: 47px;
-    background-image: url(..//files/product-presentation.png);
     background-repeat: no-repeat;
     top: 50px;
     left: 45px;
-}
-
-.project-img-title {
-    position: absolute;
-    font-size: 35px;
-    line-height: 45.5px;
-    top: 410px;
-    left: 50px;
-}
-
-.project-text {
-    position: absolute;
-    font-size: 30px;
-    line-height: 39px;
-    top: 461px;
-    left: 50px;
 }
 
 .project-btn {
@@ -121,4 +84,63 @@
     color: #1BFF07;
     border-color: #1BFF07;
     transition: 0.5s;
+}
+
+@media (max-width: 1199px) {
+
+    .project-title {
+        font-size: 45px;
+        line-height: 58px;
+        margin-bottom: 53px;
+    }
+    
+    .project-list {
+        margin-bottom: 64px;
+    }
+
+    .project-metrika-img,
+    .project-fesiyen-img,
+    .project-denis-img {
+        height: 445px;
+    }
+
+    .project-title-img {
+        font-size: 28px;
+        line-height: 36px;
+        left: 40px;
+        bottom: 76px;
+    }
+
+    .project-text-img {
+        font-size: 24px;
+        line-height: 31px;
+        left: 40px;
+        bottom: 40px;;
+    }
+
+    .project-metrika-wrapper::after,
+    .project-fesiyen-wrapper::after,
+    .project-denis-wrapper::after {
+    background-image: url(..//files/Interior-Design-mini.png);
+    background-image: url(..//files/travel-order-mini.png);
+    background-image: url(..//files/product-presentation-mini.png);
+    }
+
+    .project-metrika-wrapper::after,
+    .project-fesiyen-wrapper::after,
+    .project-denis-wrapper::after {
+    width: 210px;
+    height: 38px;
+    background-repeat: no-repeat;
+    top: 50px;
+    left: 45px;
+    }
+    
+    .project-btn {
+        width: 460px;
+        height: 124px;
+        border-radius: 8px;
+        font-size: 25px;
+        line-height: 32px;
+    }
 }
