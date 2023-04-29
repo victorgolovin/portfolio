@@ -7,14 +7,15 @@
 }
 
 .contacts-wrapper {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-
+    gap: 150px;
 }
 
 .contact-input-wrapper {
     width: 567px;
-    margin-left: 122px;
+
 }
 
 .contact-text {
@@ -69,4 +70,9 @@
 .contacts-img {
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
+    object-fit: cover;
+}
+
+@media (max-width: 1199px) {
+
 }
