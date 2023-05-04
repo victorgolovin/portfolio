@@ -1,0 +1,24 @@
+/* top-body-screen section */
+
+.top-body-img {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#191C19);
+}
+
+.top-body-img-text {
+    position: absolute;
+    font-size: 20px;
+    line-height: 26px;
+    top: 334px;
+    left: 125px;
+}
+
+.top-body-img-title {
+    position: absolute;
+    font-size: 80px;
+    line-height: 70px;
+    color: #1BFF07;
+    top: 466px;
+    left: 119px;
+}

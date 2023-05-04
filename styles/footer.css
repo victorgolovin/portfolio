@@ -1,0 +1,121 @@
+/* footer */
+
+.footer {
+    background-color: #fff;
+    color: black;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 76px;
+    margin-bottom: 66px;
+}
+
+.footer-info>h6 {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.footer-contact-link {
+    font-size: 22px;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-contact-link:hover {
+    opacity: 0.5;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 34px;
+}
+
+.footer-copyright-text {
+    font-size: 20px;
+    line-height: 27px;
+    opacity: 0.5;
+}
+
+@media (max-width: 1199px ) {
+
+    .footer-info  {
+        padding-top: 51px;
+        margin-bottom: 43px;
+        margin-right: 110px;
+        margin-left: 110px;
+    }
+
+    .footer-info>h6 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .footer-contact {
+        gap: 14px;
+    }
+
+    .footer-contact-link {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .footer-copyright {
+        margin-right: 110px;
+        margin-left: 110px;
+        padding-bottom: 25px;
+    }
+
+    .footer-copyright-text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media (max-width: 767px ) {
+
+    .footer-info  {
+        padding-top: 47px;
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .footer-info>h6 {
+        width: 198px;
+        height: 100%;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-contact {
+        gap: 13px;
+        justify-content: start;
+    }
+
+    .footer-contact-link {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .footer-copyright {
+        flex-direction: column;
+        justify-content: start;
+        gap: 12px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-bottom: 34px;
+    }
+}
