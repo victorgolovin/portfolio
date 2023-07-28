@@ -1,24 +1,127 @@
 /* top-body-screen section */
 
 .top-body-img {
-    width: 100%;
-    height: auto;
-    background: linear-gradient(#191C19);
+  width: 100%;
+  height: auto;
+  background: linear-gradient(#191c19);
 }
 
 .top-body-img-text {
-    position: absolute;
-    font-size: 20px;
-    line-height: 26px;
-    top: 334px;
-    left: 125px;
+  position: absolute;
+  font-size: 20px;
+  line-height: 26px;
+  top: 334px;
+  left: 125px;
 }
 
 .top-body-img-title {
-    position: absolute;
-    font-size: 80px;
-    line-height: 70px;
-    color: #1BFF07;
-    top: 466px;
+  position: absolute;
+  font-size: 80px;
+  line-height: 70px;
+  color: #1bff07;
+  top: 466px;
+  left: 119px;
+}
+
+@media (max-width: 1399px) {
+  .top-body-img-title {
+    font-size: 60px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .top-body-img-title {
+    font-size: 40px;
+    line-height: 30px;
+    top: 400px;
     left: 119px;
+  }
+
+  .top-body-img-text {
+    font-size: 18px;
+    line-height: 20px;
+    top: 250px;
+    left: 125px;
+  }
+}
+
+@media (max-width: 999px) {
+  .top-body-img-title {
+    font-size: 30px;
+    line-height: 25px;
+    top: 350px;
+    left: 40px;
+  }
+
+  .top-body-img-text {
+    font-size: 14px;
+    line-height: 20px;
+    top: 200px;
+    left: 40px;
+  }
+}
+
+@media (max-width: 839px) {
+  .top-body-img-title {
+    top: 300px;
+    left: 40px;
+  }
+
+  .top-body-img-text {
+    top: 150px;
+    left: 40px;
+  }
+}
+
+@media (max-width: 739px) {
+  .top-body-img-title {
+    top: 250px;
+    left: 40px;
+  }
+
+  .top-body-img-text {
+    top: 100px;
+    left: 40px;
+  }
+}
+
+@media (max-width: 659px) {
+  .top-body-img-title {
+    font-size: 24px;
+    line-height: 18px;
+    top: 200px;
+    left: 40px;
+  }
+
+  .top-body-img-text {
+    font-size: 12px;
+    line-height: 14px;
+    top: 100px;
+    left: 40px;
+  }
+}
+
+@media (max-width: 529px) {
+  .top-body-img-title {
+    top: 150px;
+    left: 40px;
+  }
+
+  .top-body-img-text {
+    top: 50px;
+    left: 40px;
+  }
+}
+
+@media (max-width: 429px) {
+  .top-body-img-title {
+    top: 100px;
+    left: 40px;
+  }
+
+  .top-body-img-text {
+    top: 30px;
+    left: 40px;
+  }
 }
