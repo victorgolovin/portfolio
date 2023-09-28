@@ -1,167 +1,164 @@
 /* my-skills section */
 
 .my-skills-title {
-    font-size: 55px;
-    line-height: 71.5px;
-    margin-bottom: 200px;
+  font-size: 55px;
+  line-height: 71.5px;
+  margin-bottom: 200px;
 }
 
 .my-skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
 }
 
 .my-skills-list-content-html-css,
 .my-skills-list-content-js,
 .my-skills-list-content-framework,
 .my-skills-list-content-atom {
-    width: calc(50% - 24px);
-    position: relative;
+  width: calc(50% - 24px);
+  position: relative;
 }
 
 .my-skills-list-content-html-css::before {
-    content: '';
-    position: absolute;
-    top: -56px;
-    width: 45px;
-    height: 44px;
-    background-image: url(..//files/html-icon.png);
+  content: "";
+  position: absolute;
+  top: -56px;
+  width: 45px;
+  height: 44px;
+  background-image: url(..//files/html-icon.png);
 }
 
 .my-skills-list-content-js::before {
-    content: '';
-    position: absolute;
-    top: -56px;
-    width: 45px;
-    height: 44px;
-    background-image: url(..//files/js-icon.png);
+  content: "";
+  position: absolute;
+  top: -56px;
+  width: 45px;
+  height: 44px;
+  background-image: url(..//files/js-icon.png);
 }
 
 .my-skills-list-content-framework::before {
-    content: '';
-    position: absolute;
-    top: -56px;
-    width: 45px;
-    height: 44px;
-    background-image: url(..//files/mobile-icon.png);
+  content: "";
+  position: absolute;
+  top: -56px;
+  width: 45px;
+  height: 44px;
+  background-image: url(..//files/mobile-icon.png);
 }
 
 .my-skills-list-content-atom::before {
-    content: '';
-    position: absolute;
-    top: -56px;
-    width: 45px;
-    height: 44px;
-    background-image: url(..//files/atom-icon.png);
+  content: "";
+  position: absolute;
+  top: -56px;
+  width: 45px;
+  height: 44px;
+  background-image: url(..//files/atom-icon.png);
 }
 
 .my-skills-list-content-html-css,
 .my-skills-list-content-framework {
-    margin-right: 47px;
+  margin-right: 47px;
 }
 
 .my-skills-list-content-framework {
-    margin-top: 110px;
+  margin-top: 110px;
 }
 
 .my-skills-list-content-atom {
-    margin-top: 99px;
+  margin-top: 99px;
 }
 
-.my-skills-list-content-html-css>h4,
-.my-skills-list-content-js>h4,
-.my-skills-list-content-atom>h4 {
-    font-size: 35px;
-    line-height: 45.5px;
-    color: #1BFF07;
-    margin: 15px 0 15px 0;
+.my-skills-list-content-html-css > h4,
+.my-skills-list-content-js > h4,
+.my-skills-list-content-atom > h4 {
+  font-size: 35px;
+  line-height: 45.5px;
+  color: #1bff07;
+  margin: 15px 0 15px 0;
 }
 
-.my-skills-list-content-framework>h4 {
-    font-size: 35px;
-    line-height: 45.5px;
-    color: #1BFF07;
-    margin-bottom: 65px;
+.my-skills-list-content-framework > h4 {
+  font-size: 35px;
+  line-height: 45.5px;
+  color: #1bff07;
+  margin-bottom: 65px;
 }
 
-.my-skills-list-content-html-css>p,
-.my-skills-list-content-js>p,
-.my-skills-list-content-framework>p,
-.my-skills-list-content-atom>p {
-    font-size: 22px;
-    line-height: 28.6px;
+.my-skills-list-content-html-css > p,
+.my-skills-list-content-js > p,
+.my-skills-list-content-framework > p,
+.my-skills-list-content-atom > p {
+  font-size: 22px;
+  line-height: 28.6px;
 }
 
 @media (max-width: 1199px) {
+  .my-skills-title {
+    font-size: 45px;
+    line-height: 58px;
+    margin-bottom: 155px;
+  }
 
-    .my-skills-title {
-        font-size: 45px;
-        line-height: 58px;
-        margin-bottom: 155px;
-    }
+  .my-skills-list-content-html-css > h4,
+  .my-skills-list-content-js > h4,
+  .my-skills-list-content-atom > h4 {
+    font-size: 28px;
+    line-height: 36px;
+    margin: 10px 0 13px 0;
+  }
 
-    .my-skills-list-content-html-css>h4,
-    .my-skills-list-content-js>h4,
-    .my-skills-list-content-atom>h4
-    {
-        font-size: 28px;
-        line-height: 36px;
-        margin: 10px 0 13px 0;
-    }
+  .my-skills-list-content-framework > h4 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 47px;
+  }
 
-    .my-skills-list-content-framework>h4 {
-        font-size: 28px;
-        line-height: 36px;
-        margin-bottom: 47px;
-    }
-
-    .my-skills-list-content-html-css>p,
-    .my-skills-list-content-js>p,
-    .my-skills-list-content-framework>p,
-    .my-skills-list-content-atom>p {
-        font-size: 18px;
-        line-height: 23px;
-    }
+  .my-skills-list-content-html-css > p,
+  .my-skills-list-content-js > p,
+  .my-skills-list-content-framework > p,
+  .my-skills-list-content-atom > p {
+    font-size: 18px;
+    line-height: 23px;
+  }
 }
 
 @media (max-width: 767px) {
+  .my-skills-title {
+    font-size: 45px;
+    line-height: 58px;
+    margin-bottom: 106px;
+  }
 
-    .my-skills-title {
-        font-size: 45px;
-        line-height: 58px;
-        margin-bottom: 106px;
-    }  
+  .my-skills-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    align-items: center;
+  }
 
-    .my-skills-list {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 100px;
-        align-items: center;
-    }
+  .my-skills-list-content-html-css,
+  .my-skills-list-content-js,
+  .my-skills-list-content-framework,
+  .my-skills-list-content-atom {
+    width: 100%;
+    position: relative;
+  }
 
-    .my-skills-list-content-html-css,
-    .my-skills-list-content-js,
-    .my-skills-list-content-framework,
-    .my-skills-list-content-atom {
-        width: 100%;
-        position: relative;
-    }
+  .my-skills-list-content-html-css,
+  .my-skills-list-content-framework {
+    margin-right: 0px;
+  }
 
-    .my-skills-list-content-html-css,
-    .my-skills-list-content-framework {
-        margin-right: 0px;
-    }
+  .my-skills-list-content-js {
+    margin-top: 106px;
+  }
 
-    .my-skills-list-content-js {
-        margin-top: 106px;
-    }
-    
-    .my-skills-list-content-framework {
-        margin-top: 106px;
-    }
-    
-    .my-skills-list-content-atom {
-        margin-top: 108px;
-    }
+  .my-skills-list-content-framework {
+    margin-top: 106px;
+  }
+
+  .my-skills-list-content-atom {
+    margin-top: 108px;
+  }
 }

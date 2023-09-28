@@ -63,6 +63,7 @@
   text-align: center;
   border-radius: 10px;
   color: black;
+  border: solid 1px;
 }
 
 .contact-btn:hover {
